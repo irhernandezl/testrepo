@@ -1,0 +1,1409 @@
+{
+  "172.29.12.67": {
+    "routers": {
+      "1": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32047": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.26.38.73:0",
+              "lport": "2047 iBHb2",
+              "name": "Credivalores in 1"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33047": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.26.38.73:0",
+              "lport": "3047 iBHb2",
+              "name": "Credivalores in 2"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "2": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38201": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.74.21:0",
+              "lport": "8201 BHb2",
+              "name": "BANCO BOGOTA ATH 8201"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "39201": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.74.21:0",
+              "lport": "9201 BHb2",
+              "name": "BANCO BOGOTA ATH 9201"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33001": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "3001 BHb2",
+              "name": "BANCO MEGA 3001"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33901": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "3901 iBHb2",
+              "name": "ELECTRON MEGA 3901"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "3": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32001": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "2001 iBHb2",
+              "name": "BANCO BOGOTA CR 2001"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32301": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "2301 iBHb2",
+              "name": "BANCO BOGOTA CR 2301"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "37901": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.103.7:0",
+              "lport": "7901 iBHb2",
+              "name": "BANCO BTA DB 7901"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "37201": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.103.7:0",
+              "lport": "7201 iBHb2",
+              "name": "BANCO BTA DB 7201"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "5": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "31960": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.1.18:0",
+              "lport": "1960 BHb2",
+              "name": "BANCO MEGA 1960"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "4": {
+        "rules": {
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "35064": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "192.168.2.130:0",
+              "lport": "5064 iBHb2",
+              "name": "BANCO PICHINCHA 5064"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33064": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "192.168.2.130:0",
+              "lport": "3064 iBHb2",
+              "name": "BANCO PICHINCHA 3064"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "5": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "31964": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "192.168.2.130:0",
+              "lport": "1964 iBHb2",
+              "name": "BANCO PICHINCHA 1964"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "6": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "39064": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "192.168.2.130:0",
+              "lport": "9064 iBHb2",
+              "name": "BANCO PICHINCHA 9064"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "6": {
+        "rules": {
+          "5": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "36951": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.27.1.176:0",
+              "lport": "6951 iBHb2",
+              "name": "DAVIVIEN RAPPI 1"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "6": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "37951": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.27.1.176:0",
+              "lport": "7951 iBHb2",
+              "name": "DAVIVIEN RAPPI 2"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "7": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32809": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.27.1.176:0",
+              "lport": "2809 iBHb2",
+              "name": "Tuya_01"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33809": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.27.1.176:0",
+              "lport": "3809 iBHb2",
+              "name": "Tuya_02"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "9": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "37036": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.35.200.11:0",
+              "lport": "7036 iBHb2",
+              "name": "Falabella_01"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32510": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.35.200.12:0",
+              "lport": "2510 iBHb2",
+              "name": "Falabella_02"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33510": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.35.200.13:0",
+              "lport": "3510 iBHb2",
+              "name": "Falabella_03"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "11": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32089": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.27.1.176:0",
+              "lport": "2089 iBHb2",
+              "name": "Biocredit 2089"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33089": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.26.38.73:0",
+              "lport": "3089 iBHb2",
+              "name": "Biocredit 3089"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "13": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32014": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.14.21:0",
+              "lport": "2014 BHb2",
+              "name": "Itau CR 2014"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33014": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.14.21:0",
+              "lport": "3014 BHb2",
+              "name": "Itau CR 3014"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32114": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.14.21:0",
+              "lport": "2114 BHb2",
+              "name": "Itau CR 2114"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33114": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.14.21:0",
+              "lport": "3114 BHb2",
+              "name": "Itau CR 3114"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "14": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33702": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.16.27.253:0",
+              "lport": "3702 BHb2",
+              "name": "BANCO POPULAR CR 3702"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32702": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.16.27.253:0",
+              "lport": "2702 BHb2",
+              "name": "BANCO POPULAR CR 2702"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "15": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38212": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8212 BHb2",
+              "name": "EVERTEK 8212"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38213": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8213 BHb2",
+              "name": "EVERTEK 8213"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38214": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8214 BHb2",
+              "name": "EVERTEK 8214"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38215": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8215 BHb2",
+              "name": "EVERTEK 8215"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "16": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38216": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8216 BHb2",
+              "name": "EVERTEK 8216"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38217": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8217 BHb2",
+              "name": "EVERTEK 8217"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38220": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8220 BHb2",
+              "name": "EVERTEK 8220"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38221": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8221 BHb2",
+              "name": "EVERTEK 8221"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "5": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38218": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8218 BHb2",
+              "name": "EVERTEK 8218"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "6": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38219": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "8219 BHb2",
+              "name": "EVERTEK 8219"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "17": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32423": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "192.168.3.44:0",
+              "lport": "2423 iBHb2",
+              "name": "SERFINANZA 2423"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32424": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "192.168.3.44:0",
+              "lport": "2424 iBHb2",
+              "name": "SERFINANZA 2424"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "19": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "31044": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "1044 BHb2",
+              "name": "Coomultrasan 1044"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "31144": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "1144 BHb2",
+              "name": "Coomultrasan 1144"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32044": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "2044 BHb2",
+              "name": "Coomultrasan 2044"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32144": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "2144 BHb2",
+              "name": "Coomultrasan 2144"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "20": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32908": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "2908 BHb2",
+              "name": "Coopcentral 2908"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33908": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "0.0.0.0:0",
+              "lport": "3908 BHb2",
+              "name": "Coopcentral 3908"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32208": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.35.17:0",
+              "lport": "2208 iBHb2",
+              "name": "Coopcentral 2208"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33208": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.35.17:0",
+              "lport": "3208 iBHb2",
+              "name": "Coopcentral 3208"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "5": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "34008": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "4008 BHb2",
+              "name": "Coopcentral 4008"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "6": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "35008": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "5008 BHb2",
+              "name": "Coopcentral 5008"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "21": {
+        "rules": {
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "38969": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "8969 BHb2",
+              "name": "BANCOOMEVA 8969"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "39969": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "9969 BHb2",
+              "name": "BANCOOMEVA 9969"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "7": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "34969": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.31.39:0",
+              "lport": "4969 iBHb2",
+              "name": "BANCOOMEVA 4969"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "8": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "35969": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.31.39:0",
+              "lport": "5969 iBHb2",
+              "name": "BANCOOMEVA 5969"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "22": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "32075": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "2075 BHb2",
+              "name": "Finandina CR 1"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "33075": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "172.29.65.114:0",
+              "lport": "3075 BHb2",
+              "name": "Finandina CR 2"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "23": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "35933": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.32.194:0",
+              "lport": "5933 BHb2",
+              "name": "BANCO CSOL 5933"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "2": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "36933": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.32.194:0",
+              "lport": "6933 BHb2",
+              "name": "BANCO CSOL 6933"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "24": {
+        "rules": {
+          "3": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "36901": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.1.18:0",
+              "lport": "6901 iBHb2",
+              "name": "BANCO BTA DB 6901"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          },
+          "4": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "36201": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "iBHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.2.1.18:0",
+              "lport": "6201 iBHb2",
+              "name": "BANCO BTA DB 6201"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      },
+      "50": {
+        "rules": {
+          "1": {
+            "type": "con",
+            "src_persist": "n",
+            "src": {
+              "37043": {
+                "raddr": "172.29.9.67:0",
+                "mhdr": "BHb2",
+                "name": "NODO-01"
+              }
+            },
+            "dst": {
+              "mode": "server",
+              "raddr": "10.206.10.20:0",
+              "lport": "7043 BHb2",
+              "name": "AGRARIO CR 1"
+            },
+            "plugin": {
+              "file": "slb_plugin_rm_biciso.so",
+              "type": "RM"
+            }
+          }
+        }
+      }
+    }
+  }
+}
